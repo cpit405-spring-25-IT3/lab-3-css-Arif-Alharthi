@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 3: CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3 - CSS Structure</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
+    <h1>Lab 03: CSS Structure and Properties</h1>
+
+    <div class="image-preview">
+        <img src="https://cpit405.gitlab.io/images/KAU_logo.png" alt="KAU Logo">
+    </div>
+
+    <h2>CSS Effects Table</h2>
+    <table border="1">
+        <tr>
+            <th>Element</th>
+            <th>Color</th>
+            <th>Color on Mouse Hover</th>
+        </tr>
+        <tr>
+            <td>span.myclass1</td>
+            <td style="color: pink;">Pink</td>
+            <td style="color: blue;">Blue</td>
+        </tr>
+        <tr>
+            <td>span.myclass2</td>
+            <td style="color: pink;">Pink</td>
+            <td style="color: pink;">Pink</td>
+        </tr>
+        <tr>
+            <td>span.myclass3</td>
+            <td style="color: orange;">Orange</td>
+            <td style="color: orange;">Orange</td>
+        </tr>
+        <tr>
+            <td>span.myclass4</td>
+            <td style="color: red;">Red</td>
+            <td style="color: red;">Red</td>
+        </tr>
+    </table>
+
+    <h2>CSS Effect on Text</h2>
+    <div id="header">
+        <span class="myclass1">Every</span>
+        <span class="myclass2">one can</span>
+        <span class="myclass3">succeed.</span>
+    </div>
+    <p>
+        One machine can do the work of fifty ordinary men.  
+        <span class="myclass4">No machine can do the work of one extraordinary man.</span>
+    </p>
+
 </body>
 </html>
